@@ -9,24 +9,23 @@ Foi utilizado o site [draw.io](app.diagrams.net) para a criação de um diagrama
 ```mermaid
 classDiagram
     class iPhone {
-
     }
-    class <<AparelhoTelefonico>> {
+    class AparelhoTelefonico {
         + ligar(): void
         + atender(): void
         * iniciarCorreioVoz(): void
     }
-    class <<NavegadorInternet>> {
+    class NavegadorInternet {
         + exibirPagina(): void
         + adicionarNovaAba(): void
         + atualizarPagina(): void
     }
-    class <<ReprodutorMusical>> {
+    class ReprodutorMusical {
         + tocar(): void
         + pausar(): void
         + selecionarMusica(): void
     }
-    iPhone --|> <<AparelhoTelefonico>>
-    iPhone --|> <<NavegadorInternet>>
-    iPhone --|> <<ReprodutorMusical>>
+    iPhone --|> AparelhoTelefonico
+    iPhone --|> NavegadorInternet
+    iPhone --|> ReprodutorMusical
 ```
