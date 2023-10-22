@@ -2,7 +2,7 @@
 
 Este projeto foi realizado durante o Santander Bootcamp 2023 - FullStack Angular + Java.
 
-Foi utilizado o site [app.diagrams](app.diagrams.net) para a criação de um diagrama UML representando as classes do iPhone e todo o código foi construído usando a linguagem Java.
+Foi utilizado o site [draw.io](app.diagrams.net) para a criação de um diagrama UML representando as classes do iPhone e todo o código foi construído usando a linguagem Java.
 
 ## Diagrama - iPhone
 
